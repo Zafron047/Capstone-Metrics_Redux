@@ -1,5 +1,3 @@
-  # Heartland Humane
-</br>
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -11,14 +9,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🚀 Project presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
+  - [Running Tests](#running-tests)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -26,115 +23,87 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-## 📖 Heartland Humane <a name="#about-project"></a>
+# 📖 Heartland Catbase <a name="about-project"></a>
 
-**Heartland Humane** is an innovative web application that serves as both a cat rescue and adoption service, allowing users to explore and discover various cat breeds from around the world. With a vast collection of adorable cat images and detailed information about each breed's characteristics, Heartland Humane promises an enjoyable experience for cat enthusiasts and curious users alike.
+The Heartland Catbase Project is a mobile-first web application designed to showcase information about different cat breeds. Styled specifically for mobile displays, the app ensures a responsive and smooth user experience. Built with React and Redux, it efficiently manages state and integrates with APIs using Axios. The application features a clean, modular layout that highlights best practices in React development, focusing on state management and seamless API integration while providing detailed breed information.
 
-[![App Demo](src/assets/previewApp.gif)](link-to-your-video)
+---
 
-## 🛠 Built With <a name="built-with">React-Redux</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="">React.js</a></li>
-    <li><a href="">React Redux</a></li>
-    <li><a href="">React Testing Library</a></li>
-  </ul>
-</details>
+- **Frontend:** React
+- **State Management:** Redux Toolkit
+- **Routing:** React Router DOM
+- **API Communication:** Axios
+- **Testing:** Jest, React Testing Library, Mock Service Worker (MSW)
+- **Styling and Linting:** ESLint, Stylelint
 
-
-<!-- Features -->
+---
 
 ### Key Features <a name="key-features"></a>
 
+- **GitFlow Workflow:** Streamlined collaboration and version control.
+- **State Management with Redux Toolkit:** Efficient and scalable state management.
+- **API Integration with Axios:** Robust communication with external APIs.
+- **Dynamic Routing:** Smooth navigation with React Router.
+- **Modular Components:** Reusable React components with JSX.
+- **Testing:** Comprehensive unit and integration tests using Jest and React Testing Library.
 
-- **[GitFlow]**
-- **[React Router]**
-- **[React Components]**
-- **[React JSX]**
-- **[React Redux]**
-- **[Axios]**
+---
 
-<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## 🚀 Live Demo <a name="#live-demo"></a>
-
-- [Click here](https://heartland-humane-cat-adoption.onrender.com) to see Live Demo.
-## 🚀 Project presentation <a name="#project-presentation"></a>
-- [Click here](https://drive.google.com/file/d/1LdXFkPiv_wzXTZy9BjqvAYO8PXzBX5FE/view?usp=sharing) to see presentation.
+- [Click here](https://heartland-humane-cat-adoption.onrender.com/) to see Live Demo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+---
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
 To get a local copy up and running, follow these steps.
+
+---
 
 ### Prerequisites
 
-In order to run this project you need to:
+In order to run this project you need:
 
-### Setup
+- Node.js and npm installed.
+- Code Editor (e.g., VS Code).
+- A web browser.
+
+---
+
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
-```
+```bash
 cd my-folder
-  git clone https://github.com/Zafron047/Heartland_Humane.git
+gh repo clone https://github.com/Zafron047/Heartland_CatBase
 ```
 
-### Install
-
-Install this project with:
-
+Install all dependencies:  <a name="install"></a>
+```bash
+npm install
 ```
-npm i
-```
-
-### Usage
-
-To run the project, execute the following command:
-```
-npm start
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-### Run Tests
-
-You can run tests to check for linter errors by running the following commands: <br/>
- - Tests
-```
+### Running Tests <a name="running-tests"></a>
+```bash
 npm test
 ```
- - Check css errors
-```
-npx stylelint "**/*.{css,scss}"
-```
- - Check Javascript errors
-```
-npx eslint "**/*.{js,jsx}" 
-```
 
-### Deployment
-You can deploy this project using:
-- Free deployment services like GitHub pages.
-- Any deployment services of your choice.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors: <a name="authors"></a>
 
 👤 MD. Nohain Islam
-- GitHub: [&nbsp; &nbsp; @githubhandle](https://github.com/Zafron047)
-- Twitter: [&nbsp; &nbsp; @twitterhandle](https://https://twitter.com/NohainZ)
-- LinkedIn: [&nbsp; LinkedIn](https://www.linkedin.com/in/nohain-islam/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- GitHub: [&nbsp; &nbsp; &nbsp;github](https://github.com/Zafron047)
+- Twitter: [&nbsp; &nbsp; &nbsp; twitter](https://twitter.com/NohainZ)
+- LinkedIn: [&nbsp; &nbsp;LinkedIn](https://www.linkedin.com/in/nohain-islam/)
 
 <!-- CONTRIBUTING -->
 
@@ -142,20 +111,17 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Zafron047/Heartland_Humane/issues).
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can recommend to your friend, family and colleagues who want to use my services
+If you like this project, show your support by giving the project a star ⭐️, thanks in advance.
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-*I would like to thank ***Nelson Sakwa*** for the exceptional design on Behance that served as a constant source of inspiration throughout my project journey. Additionally, I extend my sincere appreciation to the team at **Microverse** for their invaluable guidance and abundant resources, which played a pivotal role in shaping the successful outcome of my projects. Their unwavering support has been instrumental in my growth as a professional, and I am truly thankful for the opportunities they have provided.*
+I would like to thank Microverse for including this in their curriculum.
 
 ## 📝 License <a name="license"></a>
 
